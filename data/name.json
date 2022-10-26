@@ -1,31 +1,31 @@
 [
     {
       "id": "01",
-      "name": "Breaking News"
+      "name": "HTML-5"
     },
     {
       "id": "02",
-      "name": "Regular News"
+      "name": "CSS-3"
     },
     {
       "id": "03",
-      "name": "International News"
+      "name": "BootStrap"
     },
     {
       "id": "04",
-      "name": "Sports"
+      "name": "TailWind Css"
     },
     {
       "id": "05",
-      "name": "Entertainment"
+      "name": "Git & GitHub"
     },
     {
       "id": "06",
-      "name": "Culture"
+      "name": "JavaScript"
     },
     {
       "id": "07",
-      "name": "Arts"
+      "name": "React Js"
     },
     {
       "id": "08",

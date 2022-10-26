@@ -6,11 +6,16 @@ const port = process.env.PORT || 4000;
 
 app.use(cors());
 
-const courses = require('./data/courses.json')
+const courses = require('./data/courses.json');
+const courseName = require('./data/name.json');
 
 app.get('/', (req, res) => {
     res.send('Courses API created');
 });
+
+app.get('/course-list', (req, res) => {
+    res.send(courseName);
+})
 
 app.get('/courses', (req, res) => {
     res.send(courses);
