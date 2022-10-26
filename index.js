@@ -9,8 +9,12 @@ app.use(cors());
 const courses = require('./data/courses.json')
 
 app.get('/', (req, res) => {
-    res.send('Courses API Running');
+    res.send('Courses API created');
 });
+
+app.get('/courses', (req, res) => {
+    res.send(courses);
+})
 
 app.get('/courses/:id', (req, res) => {
     const id = req.params.id;
